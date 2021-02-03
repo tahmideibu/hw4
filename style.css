@@ -1,0 +1,43 @@
+*body{
+margin: 0px;
+padding: 0px;
+font-family: 'Hachi Maru Pop', cursive;
+}
+
+.one{
+    height: 200px;
+    width: 100%;
+    background-color: #AE0D7A;
+    text-align: center;
+    padding-top: 40px;
+}
+
+.txc{
+    color:#213409;
+    
+}
+
+.txc2{
+    color: #FDED2A;
+}
+.two{
+    background-color: #2E2FE3;
+}
+  
+
+
+p{
+    padding: 20px;
+    text-align: justify;
+    color:white;
+    
+}
+
+.one:hover +.two{
+    background-color: #213409;
+    
+}
+p::first-letter{
+    color: #ff0000;
+    font-size: x-large;
+}
